@@ -48,3 +48,6 @@ def readme_regex
 end
 ```
 
+I've requested this feature be added to the Jekyll plugin GitHub Pages uses:
+
+https://github.com/benbalter/jekyll-readme-index/issues/38

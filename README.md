@@ -31,7 +31,7 @@ https://github.com/TomasHubelbauer/github-pages-dotgithub-readme/actions/workflo
 | File(s) | GitHub repository page picks | GitHub Pages site picks |
 |-|-|-|
 | `README.md` | `README.md` | `README.md` |
-| `README.md`, `.github/README.md` | TODO | TODO |
+| `README.md`, `.github/README.md` | `.github/README.md` | `README.md` |
 | `README.md`, `docs/README.md` | TODO | TODO |
 | `README.md`, `root/README.md` | TODO | TODO |
 

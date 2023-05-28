@@ -22,6 +22,12 @@ which uses the https://github.com/benbalter/jekyll-readme-index plugin to make
 it so that the Jekyll static site generator uses `README.md` over `index.md` as
 the directory's index file.
 
+I enabled GitHub Pages for this repository, the site can be found here:
+https://tomashubelbauer.github.io/github-pages-dotgithub-readme/
+
+And the GitHub Actions workflow that builds the deploys the site here:
+https://github.com/TomasHubelbauer/github-pages-dotgithub-readme/actions/workflows/pages/pages-build-deployment
+
 | File(s) | GitHub repository page picks | GitHub Pages site picks |
 |-|-|-|
 | `README.md` | `README.md` | `README.md` |

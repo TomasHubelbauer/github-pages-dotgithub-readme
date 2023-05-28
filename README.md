@@ -32,8 +32,19 @@ https://github.com/TomasHubelbauer/github-pages-dotgithub-readme/actions/workflo
 |-|-|-|
 | `README.md` | `README.md` | `README.md` |
 | `README.md`, `.github/README.md` | `.github/README.md` | `README.md` |
-| `README.md`, `docs/README.md` | TODO | TODO |
-| `README.md`, `root/README.md` | TODO | TODO |
 
 Note that I am not enumerating all possible configurations here, only the ones I
 care about.
+
+The reason the `.github/README.md` override README wasn't used is because the
+plugin GitHub Pages uses doesn't implement this:
+
+https://github.com/benbalter/jekyll-readme-index/blob/master/lib/jekyll-readme-index/generator.rb
+
+```ruby
+# Regexp to match a file path against to detect if the given file is a README
+def readme_regex
+  @readme_regex ||= %r!/readme(#{Regexp.union(markdown_converter.extname_list)})$!i
+end
+```
+
